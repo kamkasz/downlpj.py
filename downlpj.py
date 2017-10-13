@@ -13,7 +13,7 @@ dcap = dict(DesiredCapabilities.PHANTOMJS)
 dcap["phantomjs.page.settings.userAgent"] = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 "
     "(KHTML, like Gecko) Chrome/15.0.87")
- #if website is coded to check user's browser, this should make sure that it won't stop PhantomJs from working
+#if website is coded to check user's browser, this should make sure that it won't stop PhantomJs from working
 #adress of the site on which you want to log on
 baseurl = "example.com/login.aspx?" 
 #login and username
